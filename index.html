@@ -1,13 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
+<!DOCTYPE html><html lang="en"><head>
+<meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>NeuroRecall — Clearer Days. Sharper Focus.</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
-<script defer src="https://cdn.raadsdigi.com/code/5193-9154315f-2a95-4e98-849e-884164f0ebb9"></script>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&amp;display=swap" rel="stylesheet">
+<script defer src="https://api.raads.com.br/code/5193-20140f99-957f-4471-8f6b-d6ae85e07425"></script>
 <style>
   :root{
     --navy-950:#080d17;
@@ -238,12 +236,6 @@
     display:flex;align-items:center;justify-content:center;
   }
   .video-frame video{width:100%;height:100%;object-fit:cover;}
-  .video-placeholder-hint{
-    position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;
-    gap:10px;color:#5f7396;pointer-events:none;text-align:center;padding:0 20px;
-  }
-  .video-placeholder-hint svg{width:38px;height:38px;color:#3a5273;}
-  .video-placeholder-hint span{font-size:12px;font-weight:600;letter-spacing:.02em;color:#7c8fb0;}
   .mute-btn{
     position:absolute;right:12px;bottom:12px;width:38px;height:38px;border-radius:50%;
     background:rgba(8,13,23,.65);backdrop-filter:blur(4px);border:1px solid rgba(255,255,255,.18);
@@ -266,16 +258,6 @@
   .video-meta .comment-top{margin-bottom:8px;}
   .video-meta .comment-stars{margin-bottom:6px;}
   .video-meta .comment-text{font-size:13px;}
-  .video-frame{cursor:pointer;transition:box-shadow .15s;}
-  .video-frame.drag-over{box-shadow:inset 0 0 0 3px var(--cyan-400);}
-  .video-frame.has-video .video-placeholder-hint{display:none;}
-  .video-publish-bar{text-align:center;margin-top:36px;}
-  .btn-download-page{
-    background:var(--navy-900);color:#fff;font-weight:800;font-size:13.5px;letter-spacing:.03em;
-    padding:15px 28px;border-radius:9px;border:none;cursor:pointer;transition:transform .15s,background .15s;
-  }
-  .btn-download-page:disabled{background:#c7cedb;color:#8291a8;cursor:not-allowed;}
-  .btn-download-page:not(:disabled):hover{transform:translateY(-1px);background:var(--navy-800);}
 
   /* ---------- CERT BADGES ---------- */
   .certs{background:linear-gradient(90deg,#0e5a76,#1478a0);padding:52px 24px;}
@@ -314,8 +296,6 @@
     box-sizing:border-box;
   }
   .btn-buy:hover{transform:translateY(-1px);}
-  .btn-buy.is-disabled{background:#c7cedb;color:#8291a8;cursor:not-allowed;}
-  .btn-buy.is-disabled:hover{transform:none;}
   .plan-total{margin-top:12px;font-size:12px;font-weight:700;color:var(--ink-900);}
   .plan.featured .plan-total{color:#fff;}
   .plan-ship{font-size:11px;color:var(--green-600);font-weight:700;margin-top:2px;}
@@ -395,9 +375,9 @@
       <h1>Clearer Days.<em>Sharper Focus.</em></h1>
       <p class="lede">NeuroRecall combines key B vitamins with a targeted blend of amino acids and botanicals in one convenient daily capsule.</p>
       <ul class="hero-checks">
-        <li><svg class="check-ic" viewBox="0 0 24 24" fill="none"><path d="M5 12.5l4.5 4.5L19 7" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>Supports memory and mental clarity</li>
-        <li><svg class="check-ic" viewBox="0 0 24 24" fill="none"><path d="M5 12.5l4.5 4.5L19 7" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>Helps maintain alert, focused energy</li>
-        <li><svg class="check-ic" viewBox="0 0 24 24" fill="none"><path d="M5 12.5l4.5 4.5L19 7" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>One convenient capsule each day</li>
+        <li><svg class="check-ic" viewBox="0 0 24 24" fill="none"><path d="M5 12.5l4.5 4.5L19 7" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"></path></svg>Supports memory and mental clarity</li>
+        <li><svg class="check-ic" viewBox="0 0 24 24" fill="none"><path d="M5 12.5l4.5 4.5L19 7" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"></path></svg>Helps maintain alert, focused energy</li>
+        <li><svg class="check-ic" viewBox="0 0 24 24" fill="none"><path d="M5 12.5l4.5 4.5L19 7" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"></path></svg>One convenient capsule each day</li>
       </ul>
       <a class="btn-cta" href="#pricing">CHOOSE YOUR SUPPLY →</a>
       <p class="hero-disclaimer">Individual results vary. This product is not a substitute for a balanced diet or medical care.</p>
@@ -421,18 +401,84 @@
     <h2 class="section-title">What People Are Saying</h2>
     <div class="rating-summary">
       <div class="stars-row">
-        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.7 7-6.3-3.9-6.3 3.9 1.7-7L1.9 9.2l7.1-.6L12 2z"/></svg>
-        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.7 7-6.3-3.9-6.3 3.9 1.7-7L1.9 9.2l7.1-.6L12 2z"/></svg>
-        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.7 7-6.3-3.9-6.3 3.9 1.7-7L1.9 9.2l7.1-.6L12 2z"/></svg>
-        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.7 7-6.3-3.9-6.3 3.9 1.7-7L1.9 9.2l7.1-.6L12 2z"/></svg>
-        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.7 7-6.3-3.9-6.3 3.9 1.7-7L1.9 9.2l7.1-.6L12 2z"/></svg>
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.7 7-6.3-3.9-6.3 3.9 1.7-7L1.9 9.2l7.1-.6L12 2z"></path></svg>
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.7 7-6.3-3.9-6.3 3.9 1.7-7L1.9 9.2l7.1-.6L12 2z"></path></svg>
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.7 7-6.3-3.9-6.3 3.9 1.7-7L1.9 9.2l7.1-.6L12 2z"></path></svg>
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.7 7-6.3-3.9-6.3 3.9 1.7-7L1.9 9.2l7.1-.6L12 2z"></path></svg>
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.7 7-6.3-3.9-6.3 3.9 1.7-7L1.9 9.2l7.1-.6L12 2z"></path></svg>
       </div>
       <strong>4.9/5</strong>
       <span class="muted">— based on customer reviews</span>
     </div>
   </div>
 
-  <div class="comments-grid" id="commentsGrid"></div>
+  <div class="comments-grid" id="commentsGrid"><div class="comment-card">
+      <div class="comment-top">
+        <div class="avatar">AC</div>
+        <div class="comment-name-row">
+          <div class="comment-name">Amanda Collins <svg class="verified-badge" viewBox="0 0 18 18" fill="none"><path d="M17.25 9L15.42 6.9L15.68 4.14L12.97 3.53L11.55 1.13L9 2.22L6.45 1.13L5.03 3.53L2.33 4.14L2.58 6.9L0.75 9L2.58 11.1L2.33 13.88L5.03 14.49L6.45 16.88L9 15.77L11.55 16.88L12.97 14.49L15.68 13.88L15.42 11.1L17.25 9Z" fill="currentColor"></path><path d="M7 12l-2.2-2.2 1-1L7 10l4.2-4.2 1 1L7 12Z" fill="white"></path></svg></div>
+          <div class="verified-label">Verified Buyer</div>
+        </div>
+      </div>
+      <div class="comment-stars"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.7 7-6.3-3.9-6.3 3.9 1.7-7L1.9 9.2l7.1-.6L12 2z"></path></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.7 7-6.3-3.9-6.3 3.9 1.7-7L1.9 9.2l7.1-.6L12 2z"></path></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.7 7-6.3-3.9-6.3 3.9 1.7-7L1.9 9.2l7.1-.6L12 2z"></path></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.7 7-6.3-3.9-6.3 3.9 1.7-7L1.9 9.2l7.1-.6L12 2z"></path></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.7 7-6.3-3.9-6.3 3.9 1.7-7L1.9 9.2l7.1-.6L12 2z"></path></svg></div>
+      <p class="comment-text">I noticed clearer focus within the first couple weeks. Easy to make part of my morning routine.</p>
+      <div class="comment-time">2 days ago</div>
+    </div><div class="comment-card">
+      <div class="comment-top">
+        <div class="avatar">MT</div>
+        <div class="comment-name-row">
+          <div class="comment-name">Michael Turner <svg class="verified-badge" viewBox="0 0 18 18" fill="none"><path d="M17.25 9L15.42 6.9L15.68 4.14L12.97 3.53L11.55 1.13L9 2.22L6.45 1.13L5.03 3.53L2.33 4.14L2.58 6.9L0.75 9L2.58 11.1L2.33 13.88L5.03 14.49L6.45 16.88L9 15.77L11.55 16.88L12.97 14.49L15.68 13.88L15.42 11.1L17.25 9Z" fill="currentColor"></path><path d="M7 12l-2.2-2.2 1-1L7 10l4.2-4.2 1 1L7 12Z" fill="white"></path></svg></div>
+          <div class="verified-label">Verified Buyer</div>
+        </div>
+      </div>
+      <div class="comment-stars"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.7 7-6.3-3.9-6.3 3.9 1.7-7L1.9 9.2l7.1-.6L12 2z"></path></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.7 7-6.3-3.9-6.3 3.9 1.7-7L1.9 9.2l7.1-.6L12 2z"></path></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.7 7-6.3-3.9-6.3 3.9 1.7-7L1.9 9.2l7.1-.6L12 2z"></path></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.7 7-6.3-3.9-6.3 3.9 1.7-7L1.9 9.2l7.1-.6L12 2z"></path></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.7 7-6.3-3.9-6.3 3.9 1.7-7L1.9 9.2l7.1-.6L12 2z"></path></svg></div>
+      <p class="comment-text">No more afternoon brain fog. I actually remember where I put my keys now.</p>
+      <div class="comment-time">5 days ago</div>
+    </div><div class="comment-card">
+      <div class="comment-top">
+        <div class="avatar">RB</div>
+        <div class="comment-name-row">
+          <div class="comment-name">Rachel Bennett <svg class="verified-badge" viewBox="0 0 18 18" fill="none"><path d="M17.25 9L15.42 6.9L15.68 4.14L12.97 3.53L11.55 1.13L9 2.22L6.45 1.13L5.03 3.53L2.33 4.14L2.58 6.9L0.75 9L2.58 11.1L2.33 13.88L5.03 14.49L6.45 16.88L9 15.77L11.55 16.88L12.97 14.49L15.68 13.88L15.42 11.1L17.25 9Z" fill="currentColor"></path><path d="M7 12l-2.2-2.2 1-1L7 10l4.2-4.2 1 1L7 12Z" fill="white"></path></svg></div>
+          <div class="verified-label">Verified Buyer</div>
+        </div>
+      </div>
+      <div class="comment-stars"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.7 7-6.3-3.9-6.3 3.9 1.7-7L1.9 9.2l7.1-.6L12 2z"></path></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.7 7-6.3-3.9-6.3 3.9 1.7-7L1.9 9.2l7.1-.6L12 2z"></path></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.7 7-6.3-3.9-6.3 3.9 1.7-7L1.9 9.2l7.1-.6L12 2z"></path></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.7 7-6.3-3.9-6.3 3.9 1.7-7L1.9 9.2l7.1-.6L12 2z"></path></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.7 7-6.3-3.9-6.3 3.9 1.7-7L1.9 9.2l7.1-.6L12 2z"></path></svg></div>
+      <p class="comment-text">Simple one-capsule routine and no jittery feeling like other supplements gave me.</p>
+      <div class="comment-time">1 week ago</div>
+    </div><div class="comment-card">
+      <div class="comment-top">
+        <div class="avatar">DK</div>
+        <div class="comment-name-row">
+          <div class="comment-name">David Kim <svg class="verified-badge" viewBox="0 0 18 18" fill="none"><path d="M17.25 9L15.42 6.9L15.68 4.14L12.97 3.53L11.55 1.13L9 2.22L6.45 1.13L5.03 3.53L2.33 4.14L2.58 6.9L0.75 9L2.58 11.1L2.33 13.88L5.03 14.49L6.45 16.88L9 15.77L11.55 16.88L12.97 14.49L15.68 13.88L15.42 11.1L17.25 9Z" fill="currentColor"></path><path d="M7 12l-2.2-2.2 1-1L7 10l4.2-4.2 1 1L7 12Z" fill="white"></path></svg></div>
+          <div class="verified-label">Verified Buyer</div>
+        </div>
+      </div>
+      <div class="comment-stars"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.7 7-6.3-3.9-6.3 3.9 1.7-7L1.9 9.2l7.1-.6L12 2z"></path></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.7 7-6.3-3.9-6.3 3.9 1.7-7L1.9 9.2l7.1-.6L12 2z"></path></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.7 7-6.3-3.9-6.3 3.9 1.7-7L1.9 9.2l7.1-.6L12 2z"></path></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.7 7-6.3-3.9-6.3 3.9 1.7-7L1.9 9.2l7.1-.6L12 2z"></path></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.7 7-6.3-3.9-6.3 3.9 1.7-7L1.9 9.2l7.1-.6L12 2z"></path></svg></div>
+      <p class="comment-text">Steady energy through long work days without the crash I used to get from coffee.</p>
+      <div class="comment-time">1 week ago</div>
+    </div><div class="comment-card">
+      <div class="comment-top">
+        <div class="avatar">JM</div>
+        <div class="comment-name-row">
+          <div class="comment-name">Jessica Moore <svg class="verified-badge" viewBox="0 0 18 18" fill="none"><path d="M17.25 9L15.42 6.9L15.68 4.14L12.97 3.53L11.55 1.13L9 2.22L6.45 1.13L5.03 3.53L2.33 4.14L2.58 6.9L0.75 9L2.58 11.1L2.33 13.88L5.03 14.49L6.45 16.88L9 15.77L11.55 16.88L12.97 14.49L15.68 13.88L15.42 11.1L17.25 9Z" fill="currentColor"></path><path d="M7 12l-2.2-2.2 1-1L7 10l4.2-4.2 1 1L7 12Z" fill="white"></path></svg></div>
+          <div class="verified-label">Verified Buyer</div>
+        </div>
+      </div>
+      <div class="comment-stars"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.7 7-6.3-3.9-6.3 3.9 1.7-7L1.9 9.2l7.1-.6L12 2z"></path></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.7 7-6.3-3.9-6.3 3.9 1.7-7L1.9 9.2l7.1-.6L12 2z"></path></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.7 7-6.3-3.9-6.3 3.9 1.7-7L1.9 9.2l7.1-.6L12 2z"></path></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.7 7-6.3-3.9-6.3 3.9 1.7-7L1.9 9.2l7.1-.6L12 2z"></path></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.7 7-6.3-3.9-6.3 3.9 1.7-7L1.9 9.2l7.1-.6L12 2z"></path></svg></div>
+      <p class="comment-text">My memory for names and details has genuinely improved. Sticking with this one.</p>
+      <div class="comment-time">2 weeks ago</div>
+    </div><div class="comment-card">
+      <div class="comment-top">
+        <div class="avatar">CP</div>
+        <div class="comment-name-row">
+          <div class="comment-name">Chris Palmer <svg class="verified-badge" viewBox="0 0 18 18" fill="none"><path d="M17.25 9L15.42 6.9L15.68 4.14L12.97 3.53L11.55 1.13L9 2.22L6.45 1.13L5.03 3.53L2.33 4.14L2.58 6.9L0.75 9L2.58 11.1L2.33 13.88L5.03 14.49L6.45 16.88L9 15.77L11.55 16.88L12.97 14.49L15.68 13.88L15.42 11.1L17.25 9Z" fill="currentColor"></path><path d="M7 12l-2.2-2.2 1-1L7 10l4.2-4.2 1 1L7 12Z" fill="white"></path></svg></div>
+          <div class="verified-label">Verified Buyer</div>
+        </div>
+      </div>
+      <div class="comment-stars"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.7 7-6.3-3.9-6.3 3.9 1.7-7L1.9 9.2l7.1-.6L12 2z"></path></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.7 7-6.3-3.9-6.3 3.9 1.7-7L1.9 9.2l7.1-.6L12 2z"></path></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.7 7-6.3-3.9-6.3 3.9 1.7-7L1.9 9.2l7.1-.6L12 2z"></path></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.7 7-6.3-3.9-6.3 3.9 1.7-7L1.9 9.2l7.1-.6L12 2z"></path></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.7 7-6.3-3.9-6.3 3.9 1.7-7L1.9 9.2l7.1-.6L12 2z"></path></svg></div>
+      <p class="comment-text">Great addition to my daily wellness routine — feels like a clean, straightforward formula.</p>
+      <div class="comment-time">3 weeks ago</div>
+    </div></div>
 </section>
 
 <!-- ================= FIVE WAYS ================= -->
@@ -444,11 +490,11 @@
   </div>
   <div class="wrap">
     <div class="ways-grid">
-      <div class="way-card"><div class="way-num">01</div><div class="way-check"><svg viewBox="0 0 24 24" fill="none"><path d="M5 12.5l4.5 4.5L19 7" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg></div><h3>Memory Support</h3><p>A daily formula created to support memory and everyday cognitive wellness.</p></div>
-      <div class="way-card"><div class="way-num">02</div><div class="way-check"><svg viewBox="0 0 24 24" fill="none"><path d="M5 12.5l4.5 4.5L19 7" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg></div><h3>Focused Energy</h3><p>Targeted nutrients help support attention and an alert, productive mindset.</p></div>
-      <div class="way-card"><div class="way-num">03</div><div class="way-check"><svg viewBox="0 0 24 24" fill="none"><path d="M5 12.5l4.5 4.5L19 7" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg></div><h3>Mental Clarity</h3><p>Designed to complement clear thinking through demanding days.</p></div>
-      <div class="way-card"><div class="way-num">04</div><div class="way-check"><svg viewBox="0 0 24 24" fill="none"><path d="M5 12.5l4.5 4.5L19 7" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg></div><h3>Simple Routine</h3><p>Just one convenient capsule each day with a glass of water.</p></div>
-      <div class="way-card"><div class="way-num">05</div><div class="way-check"><svg viewBox="0 0 24 24" fill="none"><path d="M5 12.5l4.5 4.5L19 7" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg></div><h3>Daily Wellness</h3><p>A straightforward addition to a consistent healthy lifestyle.</p></div>
+      <div class="way-card"><div class="way-num">01</div><div class="way-check"><svg viewBox="0 0 24 24" fill="none"><path d="M5 12.5l4.5 4.5L19 7" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"></path></svg></div><h3>Memory Support</h3><p>A daily formula created to support memory and everyday cognitive wellness.</p></div>
+      <div class="way-card"><div class="way-num">02</div><div class="way-check"><svg viewBox="0 0 24 24" fill="none"><path d="M5 12.5l4.5 4.5L19 7" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"></path></svg></div><h3>Focused Energy</h3><p>Targeted nutrients help support attention and an alert, productive mindset.</p></div>
+      <div class="way-card"><div class="way-num">03</div><div class="way-check"><svg viewBox="0 0 24 24" fill="none"><path d="M5 12.5l4.5 4.5L19 7" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"></path></svg></div><h3>Mental Clarity</h3><p>Designed to complement clear thinking through demanding days.</p></div>
+      <div class="way-card"><div class="way-num">04</div><div class="way-check"><svg viewBox="0 0 24 24" fill="none"><path d="M5 12.5l4.5 4.5L19 7" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"></path></svg></div><h3>Simple Routine</h3><p>Just one convenient capsule each day with a glass of water.</p></div>
+      <div class="way-card"><div class="way-num">05</div><div class="way-check"><svg viewBox="0 0 24 24" fill="none"><path d="M5 12.5l4.5 4.5L19 7" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"></path></svg></div><h3>Daily Wellness</h3><p>A straightforward addition to a consistent healthy lifestyle.</p></div>
     </div>
   </div>
 </section>
@@ -483,11 +529,67 @@
     <p class="section-sub">Real testimonials from real customers.</p>
   </div>
 
-  <div class="video-grid" id="videoGrid"></div>
-
-  <div class="video-publish-bar wrap">
-    <button class="btn-download-page" id="downloadPageBtn" disabled>Download Updated Page</button>
-  </div>
+  <div class="video-grid" id="videoGrid"><div class="video-card">
+      <div class="video-frame" data-idx="0">
+        <video muted="" loop="" autoplay="" playsinline="" preload="metadata" src="assets/testimonial-1.mp4"></video>
+        <div class="live-tag"><span class="live-dot"></span>LOOP</div>
+        <button class="mute-btn" aria-label="Unmute" data-idx="0">
+          <svg class="icon-off" viewBox="0 0 24 24" fill="none"><path d="M4 9v6h4l5 4V5L8 9H4Z" fill="currentColor"></path><path d="M17 8.5c1.2 1 1.9 2.2 1.9 3.5S18.2 14.5 17 15.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"></path><path d="M19.5 6c2 1.6 3.2 3.7 3.2 6s-1.2 4.4-3.2 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"></path><path d="M2 2l20 20" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"></path></svg>
+          <svg class="icon-on" viewBox="0 0 24 24" fill="none"><path d="M4 9v6h4l5 4V5L8 9H4Z" fill="currentColor"></path><path d="M17 8.5c1.2 1 1.9 2.2 1.9 3.5S18.2 14.5 17 15.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"></path><path d="M19.5 6c2 1.6 3.2 3.7 3.2 6s-1.2 4.4-3.2 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"></path></svg>
+        </button>
+      </div>
+      <div class="video-meta">
+        <div class="comment-top">
+          <div class="avatar">SR</div>
+          <div class="comment-name-row">
+            <div class="comment-name">Sophia Reyes <svg class="verified-badge" viewBox="0 0 18 18" fill="none"><path d="M17.25 9L15.42 6.9L15.68 4.14L12.97 3.53L11.55 1.13L9 2.22L6.45 1.13L5.03 3.53L2.33 4.14L2.58 6.9L0.75 9L2.58 11.1L2.33 13.88L5.03 14.49L6.45 16.88L9 15.77L11.55 16.88L12.97 14.49L15.68 13.88L15.42 11.1L17.25 9Z" fill="currentColor"></path><path d="M7 12l-2.2-2.2 1-1L7 10l4.2-4.2 1 1L7 12Z" fill="white"></path></svg></div>
+            <div class="verified-label">Verified Buyer</div>
+          </div>
+        </div>
+        <div class="comment-stars"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.7 7-6.3-3.9-6.3 3.9 1.7-7L1.9 9.2l7.1-.6L12 2z"></path></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.7 7-6.3-3.9-6.3 3.9 1.7-7L1.9 9.2l7.1-.6L12 2z"></path></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.7 7-6.3-3.9-6.3 3.9 1.7-7L1.9 9.2l7.1-.6L12 2z"></path></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.7 7-6.3-3.9-6.3 3.9 1.7-7L1.9 9.2l7.1-.6L12 2z"></path></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.7 7-6.3-3.9-6.3 3.9 1.7-7L1.9 9.2l7.1-.6L12 2z"></path></svg></div>
+        <p class="comment-text">Video testimonial — optional supporting text can go here.</p>
+      </div>
+    </div><div class="video-card">
+      <div class="video-frame" data-idx="1">
+        <video muted="" loop="" autoplay="" playsinline="" preload="metadata" src="assets/testimonial-2.mp4"></video>
+        <div class="live-tag"><span class="live-dot"></span>LOOP</div>
+        <button class="mute-btn" aria-label="Unmute" data-idx="1">
+          <svg class="icon-off" viewBox="0 0 24 24" fill="none"><path d="M4 9v6h4l5 4V5L8 9H4Z" fill="currentColor"></path><path d="M17 8.5c1.2 1 1.9 2.2 1.9 3.5S18.2 14.5 17 15.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"></path><path d="M19.5 6c2 1.6 3.2 3.7 3.2 6s-1.2 4.4-3.2 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"></path><path d="M2 2l20 20" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"></path></svg>
+          <svg class="icon-on" viewBox="0 0 24 24" fill="none"><path d="M4 9v6h4l5 4V5L8 9H4Z" fill="currentColor"></path><path d="M17 8.5c1.2 1 1.9 2.2 1.9 3.5S18.2 14.5 17 15.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"></path><path d="M19.5 6c2 1.6 3.2 3.7 3.2 6s-1.2 4.4-3.2 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"></path></svg>
+        </button>
+      </div>
+      <div class="video-meta">
+        <div class="comment-top">
+          <div class="avatar">MH</div>
+          <div class="comment-name-row">
+            <div class="comment-name">Marcus Hail <svg class="verified-badge" viewBox="0 0 18 18" fill="none"><path d="M17.25 9L15.42 6.9L15.68 4.14L12.97 3.53L11.55 1.13L9 2.22L6.45 1.13L5.03 3.53L2.33 4.14L2.58 6.9L0.75 9L2.58 11.1L2.33 13.88L5.03 14.49L6.45 16.88L9 15.77L11.55 16.88L12.97 14.49L15.68 13.88L15.42 11.1L17.25 9Z" fill="currentColor"></path><path d="M7 12l-2.2-2.2 1-1L7 10l4.2-4.2 1 1L7 12Z" fill="white"></path></svg></div>
+            <div class="verified-label">Verified Buyer</div>
+          </div>
+        </div>
+        <div class="comment-stars"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.7 7-6.3-3.9-6.3 3.9 1.7-7L1.9 9.2l7.1-.6L12 2z"></path></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.7 7-6.3-3.9-6.3 3.9 1.7-7L1.9 9.2l7.1-.6L12 2z"></path></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.7 7-6.3-3.9-6.3 3.9 1.7-7L1.9 9.2l7.1-.6L12 2z"></path></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.7 7-6.3-3.9-6.3 3.9 1.7-7L1.9 9.2l7.1-.6L12 2z"></path></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.7 7-6.3-3.9-6.3 3.9 1.7-7L1.9 9.2l7.1-.6L12 2z"></path></svg></div>
+        <p class="comment-text">Video testimonial — optional supporting text can go here.</p>
+      </div>
+    </div><div class="video-card">
+      <div class="video-frame" data-idx="2">
+        <video muted="" loop="" autoplay="" playsinline="" preload="metadata" src="assets/testimonial-3.mp4"></video>
+        <div class="live-tag"><span class="live-dot"></span>LOOP</div>
+        <button class="mute-btn" aria-label="Unmute" data-idx="2">
+          <svg class="icon-off" viewBox="0 0 24 24" fill="none"><path d="M4 9v6h4l5 4V5L8 9H4Z" fill="currentColor"></path><path d="M17 8.5c1.2 1 1.9 2.2 1.9 3.5S18.2 14.5 17 15.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"></path><path d="M19.5 6c2 1.6 3.2 3.7 3.2 6s-1.2 4.4-3.2 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"></path><path d="M2 2l20 20" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"></path></svg>
+          <svg class="icon-on" viewBox="0 0 24 24" fill="none"><path d="M4 9v6h4l5 4V5L8 9H4Z" fill="currentColor"></path><path d="M17 8.5c1.2 1 1.9 2.2 1.9 3.5S18.2 14.5 17 15.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"></path><path d="M19.5 6c2 1.6 3.2 3.7 3.2 6s-1.2 4.4-3.2 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"></path></svg>
+        </button>
+      </div>
+      <div class="video-meta">
+        <div class="comment-top">
+          <div class="avatar">EN</div>
+          <div class="comment-name-row">
+            <div class="comment-name">Emily Novak <svg class="verified-badge" viewBox="0 0 18 18" fill="none"><path d="M17.25 9L15.42 6.9L15.68 4.14L12.97 3.53L11.55 1.13L9 2.22L6.45 1.13L5.03 3.53L2.33 4.14L2.58 6.9L0.75 9L2.58 11.1L2.33 13.88L5.03 14.49L6.45 16.88L9 15.77L11.55 16.88L12.97 14.49L15.68 13.88L15.42 11.1L17.25 9Z" fill="currentColor"></path><path d="M7 12l-2.2-2.2 1-1L7 10l4.2-4.2 1 1L7 12Z" fill="white"></path></svg></div>
+            <div class="verified-label">Verified Buyer</div>
+          </div>
+        </div>
+        <div class="comment-stars"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.7 7-6.3-3.9-6.3 3.9 1.7-7L1.9 9.2l7.1-.6L12 2z"></path></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.7 7-6.3-3.9-6.3 3.9 1.7-7L1.9 9.2l7.1-.6L12 2z"></path></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.7 7-6.3-3.9-6.3 3.9 1.7-7L1.9 9.2l7.1-.6L12 2z"></path></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.7 7-6.3-3.9-6.3 3.9 1.7-7L1.9 9.2l7.1-.6L12 2z"></path></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.7 7-6.3-3.9-6.3 3.9 1.7-7L1.9 9.2l7.1-.6L12 2z"></path></svg></div>
+        <p class="comment-text">Video testimonial — optional supporting text can go here.</p>
+      </div>
+    </div></div>
 </section>
 
 <!-- ================= CERT BADGES ================= -->
@@ -550,8 +652,7 @@
           </div>
           <div class="price-line"><span class="cur">$</span><span class="num">69</span><span class="per">PER<br>BOTTLE</span></div>
           <ul class="plan-perks"><li>60-Day Guarantee</li><li>One-Time Purchase</li></ul>
-          <!-- TODO: awaiting the correct JVZoo checkout link for the 3-bottle plan from the user -->
-          <a class="btn-buy is-disabled" href="#pricing" title="Checkout link pending">BUY NOW</a>
+          <a class="btn-buy" href="https://www.jvzoo.com/b/118161/450939/99?aid=3552257">BUY NOW</a>
           <div class="plan-total">Total: $207</div>
           <div class="plan-ship">FREE US SHIPPING</div>
         </div>
@@ -582,12 +683,116 @@
     <div class="reviews-summary">
       <div class="reviews-summary-score">
         <div class="score-num">4.8</div>
-        <div class="stars-row" id="summaryStars"></div>
+        <div class="stars-row" id="summaryStars"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.7 7-6.3-3.9-6.3 3.9 1.7-7L1.9 9.2l7.1-.6L12 2z"></path></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.7 7-6.3-3.9-6.3 3.9 1.7-7L1.9 9.2l7.1-.6L12 2z"></path></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.7 7-6.3-3.9-6.3 3.9 1.7-7L1.9 9.2l7.1-.6L12 2z"></path></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.7 7-6.3-3.9-6.3 3.9 1.7-7L1.9 9.2l7.1-.6L12 2z"></path></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.7 7-6.3-3.9-6.3 3.9 1.7-7L1.9 9.2l7.1-.6L12 2z"></path></svg></div>
         <div class="score-count">Based on 1,842 Reviews</div>
       </div>
-      <div class="reviews-summary-bars" id="summaryBars"></div>
+      <div class="reviews-summary-bars" id="summaryBars"><div class="bar-row">
+      <span>5★</span>
+      <span class="bar-track"><span class="bar-fill" style="width:100%"></span></span>
+      <span class="bar-count">1,450</span>
+    </div><div class="bar-row">
+      <span>4★</span>
+      <span class="bar-track"><span class="bar-fill" style="width:21%"></span></span>
+      <span class="bar-count">310</span>
+    </div><div class="bar-row">
+      <span>3★</span>
+      <span class="bar-track"><span class="bar-fill" style="width:4%"></span></span>
+      <span class="bar-count">52</span>
+    </div><div class="bar-row">
+      <span>2★</span>
+      <span class="bar-track"><span class="bar-fill" style="width:1%"></span></span>
+      <span class="bar-count">18</span>
+    </div><div class="bar-row">
+      <span>1★</span>
+      <span class="bar-track"><span class="bar-fill" style="width:1%"></span></span>
+      <span class="bar-count">12</span>
+    </div></div>
     </div>
-    <div class="reviews-list" id="reviewsList"></div>
+    <div class="reviews-list" id="reviewsList"><div class="review-row">
+      <div class="avatar">NP</div>
+      <div class="review-body-col">
+        <div class="review-head-row">
+          <div>
+            <div class="review-name-line">Nicole P. <span class="review-verified-tag"><svg class="verified-badge" viewBox="0 0 18 18" fill="none"><path d="M17.25 9L15.42 6.9L15.68 4.14L12.97 3.53L11.55 1.13L9 2.22L6.45 1.13L5.03 3.53L2.33 4.14L2.58 6.9L0.75 9L2.58 11.1L2.33 13.88L5.03 14.49L6.45 16.88L9 15.77L11.55 16.88L12.97 14.49L15.68 13.88L15.42 11.1L17.25 9Z" fill="currentColor"></path><path d="M7 12l-2.2-2.2 1-1L7 10l4.2-4.2 1 1L7 12Z" fill="white"></path></svg> Verified Buyer</span></div>
+            <div class="review-loc">🇺🇸 United States</div>
+          </div>
+          <div class="review-date">09/15/2026</div>
+        </div>
+        <div class="review-stars"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.7 7-6.3-3.9-6.3 3.9 1.7-7L1.9 9.2l7.1-.6L12 2z"></path></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.7 7-6.3-3.9-6.3 3.9 1.7-7L1.9 9.2l7.1-.6L12 2z"></path></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.7 7-6.3-3.9-6.3 3.9 1.7-7L1.9 9.2l7.1-.6L12 2z"></path></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.7 7-6.3-3.9-6.3 3.9 1.7-7L1.9 9.2l7.1-.6L12 2z"></path></svg></div>
+        <p class="review-title">Noticeably sharper by week two</p>
+        <p class="review-text">I was skeptical at first, but by the second week I noticed I was finishing tasks faster and not losing my train of thought as much. Only wish the bottle lasted a little longer.</p>
+      </div>
+    </div><div class="review-row">
+      <div class="avatar">SG</div>
+      <div class="review-body-col">
+        <div class="review-head-row">
+          <div>
+            <div class="review-name-line">Susan G. <span class="review-verified-tag"><svg class="verified-badge" viewBox="0 0 18 18" fill="none"><path d="M17.25 9L15.42 6.9L15.68 4.14L12.97 3.53L11.55 1.13L9 2.22L6.45 1.13L5.03 3.53L2.33 4.14L2.58 6.9L0.75 9L2.58 11.1L2.33 13.88L5.03 14.49L6.45 16.88L9 15.77L11.55 16.88L12.97 14.49L15.68 13.88L15.42 11.1L17.25 9Z" fill="currentColor"></path><path d="M7 12l-2.2-2.2 1-1L7 10l4.2-4.2 1 1L7 12Z" fill="white"></path></svg> Verified Buyer</span></div>
+            <div class="review-loc">🇺🇸 United States</div>
+          </div>
+          <div class="review-date">09/15/2026</div>
+        </div>
+        <div class="review-stars"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.7 7-6.3-3.9-6.3 3.9 1.7-7L1.9 9.2l7.1-.6L12 2z"></path></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.7 7-6.3-3.9-6.3 3.9 1.7-7L1.9 9.2l7.1-.6L12 2z"></path></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.7 7-6.3-3.9-6.3 3.9 1.7-7L1.9 9.2l7.1-.6L12 2z"></path></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.7 7-6.3-3.9-6.3 3.9 1.7-7L1.9 9.2l7.1-.6L12 2z"></path></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.7 7-6.3-3.9-6.3 3.9 1.7-7L1.9 9.2l7.1-.6L12 2z"></path></svg></div>
+        <p class="review-title">My mornings feel different</p>
+        <p class="review-text">One capsule with breakfast and I feel more switched-on for the whole day. Simple routine, real difference.</p>
+      </div>
+    </div><div class="review-row">
+      <div class="avatar">SM</div>
+      <div class="review-body-col">
+        <div class="review-head-row">
+          <div>
+            <div class="review-name-line">Summer M. <span class="review-verified-tag"><svg class="verified-badge" viewBox="0 0 18 18" fill="none"><path d="M17.25 9L15.42 6.9L15.68 4.14L12.97 3.53L11.55 1.13L9 2.22L6.45 1.13L5.03 3.53L2.33 4.14L2.58 6.9L0.75 9L2.58 11.1L2.33 13.88L5.03 14.49L6.45 16.88L9 15.77L11.55 16.88L12.97 14.49L15.68 13.88L15.42 11.1L17.25 9Z" fill="currentColor"></path><path d="M7 12l-2.2-2.2 1-1L7 10l4.2-4.2 1 1L7 12Z" fill="white"></path></svg> Verified Buyer</span></div>
+            <div class="review-loc">🇺🇸 United States</div>
+          </div>
+          <div class="review-date">09/14/2026</div>
+        </div>
+        <div class="review-stars"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.7 7-6.3-3.9-6.3 3.9 1.7-7L1.9 9.2l7.1-.6L12 2z"></path></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.7 7-6.3-3.9-6.3 3.9 1.7-7L1.9 9.2l7.1-.6L12 2z"></path></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.7 7-6.3-3.9-6.3 3.9 1.7-7L1.9 9.2l7.1-.6L12 2z"></path></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.7 7-6.3-3.9-6.3 3.9 1.7-7L1.9 9.2l7.1-.6L12 2z"></path></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.7 7-6.3-3.9-6.3 3.9 1.7-7L1.9 9.2l7.1-.6L12 2z"></path></svg></div>
+        <p class="review-title">Genuinely life changing</p>
+        <p class="review-text">This became part of my daily non-negotiables. My focus during long work days has improved so much.</p>
+      </div>
+    </div><div class="review-row">
+      <div class="avatar">BS</div>
+      <div class="review-body-col">
+        <div class="review-head-row">
+          <div>
+            <div class="review-name-line">Brittany S. <span class="review-verified-tag"><svg class="verified-badge" viewBox="0 0 18 18" fill="none"><path d="M17.25 9L15.42 6.9L15.68 4.14L12.97 3.53L11.55 1.13L9 2.22L6.45 1.13L5.03 3.53L2.33 4.14L2.58 6.9L0.75 9L2.58 11.1L2.33 13.88L5.03 14.49L6.45 16.88L9 15.77L11.55 16.88L12.97 14.49L15.68 13.88L15.42 11.1L17.25 9Z" fill="currentColor"></path><path d="M7 12l-2.2-2.2 1-1L7 10l4.2-4.2 1 1L7 12Z" fill="white"></path></svg> Verified Buyer</span></div>
+            <div class="review-loc">🇺🇸 United States</div>
+          </div>
+          <div class="review-date">09/14/2026</div>
+        </div>
+        <div class="review-stars"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.7 7-6.3-3.9-6.3 3.9 1.7-7L1.9 9.2l7.1-.6L12 2z"></path></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.7 7-6.3-3.9-6.3 3.9 1.7-7L1.9 9.2l7.1-.6L12 2z"></path></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.7 7-6.3-3.9-6.3 3.9 1.7-7L1.9 9.2l7.1-.6L12 2z"></path></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.7 7-6.3-3.9-6.3 3.9 1.7-7L1.9 9.2l7.1-.6L12 2z"></path></svg></div>
+        <p class="review-title">Solid, consistent results</p>
+        <p class="review-text">Nothing dramatic overnight, but a steady, noticeable improvement in focus over the first month of taking it.</p>
+      </div>
+    </div><div class="review-row">
+      <div class="avatar">DR</div>
+      <div class="review-body-col">
+        <div class="review-head-row">
+          <div>
+            <div class="review-name-line">David R. <span class="review-verified-tag"><svg class="verified-badge" viewBox="0 0 18 18" fill="none"><path d="M17.25 9L15.42 6.9L15.68 4.14L12.97 3.53L11.55 1.13L9 2.22L6.45 1.13L5.03 3.53L2.33 4.14L2.58 6.9L0.75 9L2.58 11.1L2.33 13.88L5.03 14.49L6.45 16.88L9 15.77L11.55 16.88L12.97 14.49L15.68 13.88L15.42 11.1L17.25 9Z" fill="currentColor"></path><path d="M7 12l-2.2-2.2 1-1L7 10l4.2-4.2 1 1L7 12Z" fill="white"></path></svg> Verified Buyer</span></div>
+            <div class="review-loc">🇺🇸 United States</div>
+          </div>
+          <div class="review-date">09/13/2026</div>
+        </div>
+        <div class="review-stars"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.7 7-6.3-3.9-6.3 3.9 1.7-7L1.9 9.2l7.1-.6L12 2z"></path></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.7 7-6.3-3.9-6.3 3.9 1.7-7L1.9 9.2l7.1-.6L12 2z"></path></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.7 7-6.3-3.9-6.3 3.9 1.7-7L1.9 9.2l7.1-.6L12 2z"></path></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.7 7-6.3-3.9-6.3 3.9 1.7-7L1.9 9.2l7.1-.6L12 2z"></path></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.7 7-6.3-3.9-6.3 3.9 1.7-7L1.9 9.2l7.1-.6L12 2z"></path></svg></div>
+        <p class="review-title">Recommended it to my whole team</p>
+        <p class="review-text">We all have long deadline days — this has been a great addition to how we get through them.</p>
+      </div>
+    </div><div class="review-row">
+      <div class="avatar">KL</div>
+      <div class="review-body-col">
+        <div class="review-head-row">
+          <div>
+            <div class="review-name-line">Karen L. <span class="review-verified-tag"><svg class="verified-badge" viewBox="0 0 18 18" fill="none"><path d="M17.25 9L15.42 6.9L15.68 4.14L12.97 3.53L11.55 1.13L9 2.22L6.45 1.13L5.03 3.53L2.33 4.14L2.58 6.9L0.75 9L2.58 11.1L2.33 13.88L5.03 14.49L6.45 16.88L9 15.77L11.55 16.88L12.97 14.49L15.68 13.88L15.42 11.1L17.25 9Z" fill="currentColor"></path><path d="M7 12l-2.2-2.2 1-1L7 10l4.2-4.2 1 1L7 12Z" fill="white"></path></svg> Verified Buyer</span></div>
+            <div class="review-loc">🇺🇸 United States</div>
+          </div>
+          <div class="review-date">09/12/2026</div>
+        </div>
+        <div class="review-stars"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.7 7-6.3-3.9-6.3 3.9 1.7-7L1.9 9.2l7.1-.6L12 2z"></path></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.7 7-6.3-3.9-6.3 3.9 1.7-7L1.9 9.2l7.1-.6L12 2z"></path></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.7 7-6.3-3.9-6.3 3.9 1.7-7L1.9 9.2l7.1-.6L12 2z"></path></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.7 7-6.3-3.9-6.3 3.9 1.7-7L1.9 9.2l7.1-.6L12 2z"></path></svg></div>
+        <p class="review-title">Happy with the routine</p>
+        <p class="review-text">Easy to remember to take, and I do feel noticeably clearer by mid-afternoon compared to before.</p>
+      </div>
+    </div></div>
   </div>
 </section>
 
@@ -686,28 +891,20 @@
     commentsGrid.appendChild(card);
   });
 
-  // ---------- Video testimonials (placeholder) ----------
+  // ---------- Video testimonials ----------
   const videos = [
-    {n:'Sophia Reyes'},
-    {n:'Marcus Hail'},
-    {n:'Emily Novak'},
+    {n:'Sophia Reyes', src:'assets/testimonial-1.mp4'},
+    {n:'Marcus Hail', src:'assets/testimonial-2.mp4'},
+    {n:'Emily Novak', src:'assets/testimonial-3.mp4'},
   ];
   const videoGrid = document.getElementById('videoGrid');
-  const downloadPageBtn = document.getElementById('downloadPageBtn');
-  let loadedVideoCount = 0;
 
   videos.forEach((v,i)=>{
     const card = document.createElement('div');
     card.className = 'video-card';
     card.innerHTML = `
       <div class="video-frame" data-idx="${i}">
-        <!-- Replace the src below with the hosted video link, or drag a file here to preview -->
-        <video muted loop autoplay playsinline preload="metadata"></video>
-        <input type="file" accept="video/*" class="video-file-input" hidden>
-        <div class="video-placeholder-hint">
-          <svg viewBox="0 0 24 24" fill="none"><rect x="3" y="5" width="14" height="14" rx="2" stroke="currentColor" stroke-width="1.6"/><path d="M17 9.5l4-2.3v9.6l-4-2.3" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>
-          <span>Drag a video here<br>or click to choose a file</span>
-        </div>
+        <video muted loop autoplay playsinline preload="metadata" src="${v.src}"></video>
         <div class="live-tag"><span class="live-dot"></span>LOOP</div>
         <button class="mute-btn" aria-label="Unmute" data-idx="${i}">
           <svg class="icon-off" viewBox="0 0 24 24" fill="none"><path d="M4 9v6h4l5 4V5L8 9H4Z" fill="currentColor"/><path d="M17 8.5c1.2 1 1.9 2.2 1.9 3.5S18.2 14.5 17 15.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><path d="M19.5 6c2 1.6 3.2 3.7 3.2 6s-1.2 4.4-3.2 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><path d="M2 2l20 20" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
@@ -747,57 +944,6 @@
       }
     });
     vid.play().catch(()=>{});
-
-    // ---------- Drag-and-drop / click to load a local video, baked in as base64 ----------
-    const frame = card.querySelector('.video-frame');
-    const fileInput = card.querySelector('.video-file-input');
-
-    function loadLocalVideo(file){
-      if(!file || !file.type.startsWith('video/')) return;
-      const reader = new FileReader();
-      reader.onload = ()=>{
-        const alreadyLoaded = frame.classList.contains('has-video');
-        vid.src = reader.result; // data: URI — gets baked into the page on download
-        frame.classList.add('has-video');
-        vid.muted = true;
-        btn.classList.remove('is-unmuted');
-        btn.setAttribute('aria-label','Unmute');
-        vid.play().catch(()=>{});
-        if(!alreadyLoaded){
-          loadedVideoCount++;
-          downloadPageBtn.disabled = loadedVideoCount === 0;
-        }
-      };
-      reader.readAsDataURL(file);
-    }
-
-    frame.addEventListener('click', (e)=>{
-      if(e.target.closest('.mute-btn')) return;
-      fileInput.click();
-    });
-    fileInput.addEventListener('change', ()=> loadLocalVideo(fileInput.files[0]));
-
-    ['dragenter','dragover'].forEach(evt=>{
-      frame.addEventListener(evt, (e)=>{
-        e.preventDefault();
-        e.stopPropagation();
-        frame.classList.add('drag-over');
-      });
-    });
-    ['dragleave','dragend'].forEach(evt=>{
-      frame.addEventListener(evt, (e)=>{
-        e.preventDefault();
-        e.stopPropagation();
-        frame.classList.remove('drag-over');
-      });
-    });
-    frame.addEventListener('drop', (e)=>{
-      e.preventDefault();
-      e.stopPropagation();
-      frame.classList.remove('drag-over');
-      const file = e.dataTransfer.files && e.dataTransfer.files[0];
-      loadLocalVideo(file);
-    });
   });
 
   // ---------- Reviews wall (Stamped-style, before FAQ) ----------
@@ -854,21 +1000,9 @@
     `;
     reviewsList.appendChild(row);
   });
-
-  // ---------- Download a self-contained copy of the page with videos baked in ----------
-  downloadPageBtn.addEventListener('click', ()=>{
-    const html = '<!DOCTYPE html>\n' + document.documentElement.outerHTML;
-    const blob = new Blob([html], {type:'text/html'});
-    const url = URL.createObjectURL(blob);
-    const a = document.createElement('a');
-    a.href = url;
-    a.download = 'index.html';
-    document.body.appendChild(a);
-    a.click();
-    a.remove();
-    URL.revokeObjectURL(url);
-  });
 </script>
 
-</body>
-</html>
+
+
+
+</body></html>
